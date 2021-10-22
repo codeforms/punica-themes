@@ -6,64 +6,60 @@
 /// @link http://punica.site/themes/smart
 ///
 $punica-themes: (
-	///
-	/// Smart Theme
-	///
 	smart: (
-	    ///////////////////////////////////////////////////////////
-		// GLOBAL
-	    ///////////////////////////////////////////////////////////
-	    // imported google font and weights
-	    // elements->typography->variables
-		'google-font'					: 'Ubuntu',
-		'google-font-weights'			: '300;400;600;700;900',
-		// typography settings
-		'font-family'					: 'Ubuntu',
-		'font-size'						: 13px,
-		'font-weight'					: 400,
-		'line-height'					: 1.7,
-		'header-weight'					: 900,
-		'background-color'				: #fbfbfb,
-		'text-color'					: #161c2d,
-		///////////////////////////////////////////////////////////
-		// COLOR
-		///////////////////////////////////////////////////////////
-		'primary-color'					: #4582ec,
-		'success-color'					: #7bbb6b,
-		'warning-color'					: #c08a3e,
-		'error-color'					: #ae423f,
-		//
-		'color-active'					: #dcdcdc,
-		'color-negative'				: white,
-		'color-grey'					: #a8a8a8,
-		'color-secondary'				: #e6e6e6,
-		'color-dark'					: #343a40,
-		///////////////////////////////////////////////////////////
-		// BORDER
-		///////////////////////////////////////////////////////////
-		'border-color' 					: #a9a9a9,
-		'border-width'					: 1px,
-		'border-style'					: solid,
-		'border-radius'					: .245rem,
-		///////////////////////////////////////////////////////////
-		// SHADOW
-		///////////////////////////////////////////////////////////
-		'shadow-horizontal'				: 0,
-		'shadow-vertical'				: 2px,
-		'shadow-blur'					: 5px,
-		'shadow-spread'					: 0,
-		'shadow-color'					: rgba(0, 0, 0, 0.2),
-		///////////////////////////////////////////////////////////
-		// INPUT
-		///////////////////////////////////////////////////////////
-		'input-bg'						: white,
-		'input-color'					: #161c2d,
-		'input-border-color'			: #c6c6c6,
-		'input-outline-color'			: #000,
-		'input-outline-width'			: 1px,
-		///////////////////////////////////////////////////////////
-		// secondary button
-		'button-secondary-bg'			: linear-gradient(to top, #dce3ea 0%,#eef5fd 100%),
-		'button-secondary-bg-hover'		: linear-gradient(to top, #eef5fd 0%,#dce3ea 100%)
+		'name'	: 'Smart Theme',
+		'type'	: 'light', // light or dark (required*),
+		'google-font': (
+			'name'		: 'Ubuntu', // or Source+Sans+Pro etc
+			'weights'	: '300;400;600;700;900',
+		),
+		'typography': (
+			'font-family'	: 'Ubuntu',
+			'font-size'		: 13px,
+			'font-weight'	: 400,
+			'line-height'	: 1.7,
+			'header-weight'	: 900,
+		),
+		'color': (
+			'text'			: #161c2d,
+			'background'	: #fbfbfb,
+			'primary'		: #4582ec,
+			'success'		: #7bbb6b,
+			'warning'		: #c08a3e,
+			'error'			: #ae423f,
+			'active'		: #dcdcdc,
+			'negative'		: white,
+			'grey'			: #a8a8a8,
+			'secondary'		: #e6e6e6,
+			'dark'			: #343a40,
+		),
+		'border': (
+			'color' : #a9a9a9,
+			'width'	: 1px,
+			'style'	: solid,
+			'radius': .245rem,
+		),
+		'shadow': (
+			'horizontal': 0,
+			'vertical'	: 2px,
+			'blur'		: 5px,
+			'spread'	: 0,
+			'color'		: rgba(0, 0, 0, 0.2),
+		),
+		'input': (
+			'color'			: #161c2d,
+			'background'	: white,
+			'border-color'	: #c6c6c6,
+			'outline-color'	: #000,
+			'outline-width'	: 1px,
+			'label-weight'	: 700
+		),
+		'elements': (
+			'button': (
+				'font-weight'		: 700,
+				'secondary-bg'		: linear-gradient(to top, #dce3ea 0%,#eef5fd 100%),
+				'secondary-bg-hover': linear-gradient(to bottom, #dce3ea 0%,#eef5fd 100%)
+			),
+		)
 	)
 )

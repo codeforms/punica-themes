@@ -6,64 +6,60 @@
 /// @link http://punica.site/themes/dark
 ///
 $punica-themes: (
-	///
-	/// Dark Theme
-	///
 	dark: (
-		///////////////////////////////////////////////////////////
-		// GLOBAL
-		///////////////////////////////////////////////////////////
-		// imported google font and weights
-		// elements->typography->variables
-		'google-font'					: 'Quicksand',
-		'google-font-weights'			: '300;400;500;600;700',
-		// typography settings
-		'font-family'					: 'Quicksand',
-		'font-size'						: .8265em,
-		'font-weight'					: 500,
-		'line-height'					: 1.8,
-		'header-weight'					: 700,
-		'background-color'				: #26272b,
-		'text-color'					: white,
-		///////////////////////////////////////////////////////////
-		// COLOR
-		///////////////////////////////////////////////////////////
-		'primary-color'					: #10a6fa,
-		'success-color'					: #2abc90,
-		'warning-color'					: #b78343,
-		'error-color'					: #d84955,
-		//
-		'color-active'					: lighten(#26272b, 3.7%),
-		'color-negative'				: white,
-		'color-grey'					: #6c6e79,
-		'color-secondary'				: lighten(#26272b, 5%),
-		'color-dark'					: lighten(#26272b, 4.5%),
-		///////////////////////////////////////////////////////////
-		// BORDER
-		///////////////////////////////////////////////////////////
-		'border-color' 					: lighten(#26272b, 23%),
-		'border-width'					: 1px,
-		'border-style'					: solid,
-		'border-radius'					: 4px,
-		///////////////////////////////////////////////////////////
-		// SHADOW
-		///////////////////////////////////////////////////////////
-		'shadow-horizontal'				: 0,
-		'shadow-vertical'				: 2px,
-		'shadow-blur'					: 5px,
-		'shadow-spread'					: 1px,
-		'shadow-color'					: rgba(0, 0, 0, 0.14),
-		///////////////////////////////////////////////////////////
-		// INPUT
-		///////////////////////////////////////////////////////////
-		'input-bg'						: lighten(#26272b, 8.5%),
-		'input-color'					: white,
-		'input-border-color'			: lighten(#26272b, 26%),
-		"input-outline-color"			: white,
-		'input-outline-width'			: 2px,
-		///////////////////////////////////////////////////////////
-		// secondary button
-		'button-secondary-bg'			: linear-gradient(to top, #202125 0%,#26272b 100%),
-		'button-secondary-bg-hover'		: linear-gradient(to top, #26272b 0%,#202125 100%)
+		'name'	: 'Dark Theme',
+		'type'	: 'dark', // light or dark (required*),
+		'google-font': (
+			'name'		: 'Quicksand', // or Source+Sans+Pro etc
+			'weights'	: '300;400;500;600;700',
+		),
+		'typography': (
+			'font-family'	: 'Quicksand',
+			'font-size'		: .8265em,
+			'font-weight'	: 500,
+			'line-height'	: 1.8,
+			'header-weight'	: 700,
+		),
+		'color': (
+			'text'			: white,
+			'background'	: #26272b,
+			'primary'		: #10a6fa,
+			'success'		: #2abc90,
+			'warning'		: #b78343,
+			'error'			: #d84955,
+			'active'		: lighten(#26272b, 3.7%),
+			'negative'		: white,
+			'grey'			: #6c6e79,
+			'secondary'		: lighten(#26272b, 5%),
+			'dark'			: lighten(#26272b, 4.5%),
+		),
+		'border': (
+			'color' : lighten(#26272b, 23%),
+			'width'	: 1px,
+			'style'	: solid,
+			'radius': 4px,
+		),
+		'shadow': (
+			'horizontal': 0,
+			'vertical'	: 2px,
+			'blur'		: 5px,
+			'spread'	: 1px,
+			'color'		: rgba(0, 0, 0, 0.14),
+		),
+		'input': (
+			'color'			: white,
+			'background'	: lighten(#26272b, 8.5%),
+			'border-color'	: lighten(#26272b, 26%),
+			'outline-color'	: white,
+			'outline-width'	: 2px,
+			'label-weight'	: 700
+		),
+		'elements': (
+			'button': (
+				'font-weight'		: 700,
+				'secondary-bg'		: linear-gradient(to top, #202125 0%,#26272b 100%),
+				'secondary-bg-hover': linear-gradient(to bottom, #202125 0%,#26272b 100%)
+			),
+		)
 	)
 )

@@ -6,64 +6,60 @@
 /// @link http://punica.site/themes/retro
 ///
 $punica-themes: (
-	///
-	/// Retro Theme
-	///
 	retro: (
-		///////////////////////////////////////////////////////////
-		// GLOBAL
-		///////////////////////////////////////////////////////////
-		// imported google font and weights
-	    // elements->typography->variables
-		'google-font'                   : 'Montserrat+Alternates',
-	    'google-font-weights'           : '300;400;500;700;900',
-	    // typography settings
-	    'font-family'                   : 'Montserrat Alternates',
-		'font-size'						: .7493em,
-		'font-weight'					: 500,
-		'line-height'					: 1.8,
-		'header-weight'					: 900,
-		'background-color'				: #493323,
-		'text-color'					: white,
-		///////////////////////////////////////////////////////////
-		// COLOR
-		///////////////////////////////////////////////////////////
-		'primary-color'					: #5eaaa8,
-		'success-color'					: #879a67,
-		'warning-color'					: #de7e57,
-		'error-color'					: #cd5c5c,
-		//
-		'color-active'					: lighten(#493323, 3.7%),
-		'color-negative'				: white,
-		'color-grey'					: lighten(#493323, 24%),
-		'color-secondary'				: lighten(#493323, 7.4%),
-		'color-dark'					: lighten(#493323, 8.5%),
-		///////////////////////////////////////////////////////////
-		// BORDER
-		///////////////////////////////////////////////////////////
-		'border-color' 					: lighten(#493323, 10%),
-		'border-width'					: 1px,
-		'border-style'					: solid,
-		'border-radius'					: 2px,
-		///////////////////////////////////////////////////////////
-		// SHADOW
-		///////////////////////////////////////////////////////////
-		'shadow-horizontal'				: 0,
-		'shadow-vertical'				: 2px,
-		'shadow-blur'					: 4px,
-		'shadow-spread'					: 1px,
-		'shadow-color'					: rgba(0, 0, 0, 0.24),
-		///////////////////////////////////////////////////////////
-		// INPUT
-		///////////////////////////////////////////////////////////
-		'input-bg'						: lighten(#493323, 8.5%),
-		'input-color'					: white,
-		'input-border-color'			: lighten(#493323, 26%),
-		"input-outline-color"			: lighten(#493323, 38%),
-		'input-outline-width'			: 2px,
-		///////////////////////////////////////////////////////////
-		// secondary button
-		'button-secondary-bg'			: linear-gradient(to top, #493323 0%,lighten(#493323, 8.5%) 100%),
-		'button-secondary-bg-hover'		: linear-gradient(to top, lighten(#493323, 8.5%) 0%,#493323 100%)
+		'name'	: 'Retro Theme',
+		'type'	: 'dark', // light or dark (required*),
+		'google-font': (
+			'name'		: 'Montserrat+Alternates', // or Source+Sans+Pro etc
+			'weights'	: '300;400;500;700;900',
+		),
+		'typography': (
+			'font-family'	: 'Montserrat Alternates',
+			'font-size'		: .7493em,
+			'font-weight'	: 500,
+			'line-height'	: 1.8,
+			'header-weight'	: 900,
+		),
+		'color': (
+			'text'			: white,
+			'background'	: #493323,
+			'primary'		: #5eaaa8,
+			'success'		: #879a67,
+			'warning'		: #de7e57,
+			'error'			: #cd5c5c,
+			'active'		: lighten(#493323, 3.7%),
+			'negative'		: white,
+			'grey'			: lighten(#493323, 24%),
+			'secondary'		: lighten(#493323, 7.4%),
+			'dark'			: lighten(#493323, 8.5%),
+		),
+		'border': (
+			'color' : lighten(#493323, 10%),
+			'width'	: 1px,
+			'style'	: solid,
+			'radius': 2px,
+		),
+		'shadow': (
+			'horizontal': 0,
+			'vertical'	: 2px,
+			'blur'		: 4px,
+			'spread'	: 1px,
+			'color'		: rgba(0, 0, 0, 0.24),
+		),
+		'input': (
+			'color'			: white,
+			'background'	: lighten(#493323, 8.5%),
+			'border-color'	: lighten(#493323, 26%),
+			'outline-color'	: lighten(#493323, 38%),
+			'outline-width'	: 2px,
+			'label-weight'	: 700
+		),
+		'elements': (
+			'button': (
+				'font-weight'		: 700,
+				'secondary-bg'		: linear-gradient(to top, #493323 0%,lighten(#493323, 8.5%) 100%),
+				'secondary-bg-hover': linear-gradient(to bottom, #493323 0%,lighten(#493323, 8.5%) 100%)
+			),
+		)
 	)
 )
