@@ -1,0 +1,56 @@
+theme_slug: (
+	'name'	: 'Theme Name',
+	'type'	: 'light', // light or dark (required*),
+	'google-font': (
+		'name'		: '',
+		'weights'	: '',
+	),
+	'typography': (
+		'font-family'	: '',
+		'font-size'		: ,
+		'font-weight'	: ,
+		'line-height'	: ,
+		'header-weight'	: ,
+	),
+	'color': (
+		'text'			: ,
+		'background'	: ,
+		'primary'		: ,
+		'success'		: ,
+		'warning'		: ,
+		'error'			: ,
+		'active'		: ,
+		'negative'		: ,
+		'grey'			: ,
+		'secondary'		: ,
+		'dark'			: ,
+	),
+	'border': (
+		'color' : ,
+		'width'	: ,
+		'style'	: ,
+		'radius': ,
+	),
+	'shadow': (
+		'horizontal': ,
+		'vertical'	: ,
+		'blur'		: ,
+		'spread'	: ,
+		'color'		: ,
+	),
+	'input': (
+		'color'			: ,
+		'background'	: ,
+		'border-color'	: ,
+		'outline-color'	: ,
+		'outline-width'	: ,
+		'label-weight'	: 
+	),
+	'elements': (
+		'button': (
+			'font-weight'		: ,
+			'secondary-bg'		: ,
+			'secondary-bg-hover': 
+		),
+	)
+)
