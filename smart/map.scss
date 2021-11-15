@@ -14,11 +14,11 @@ $punica-themes: (
 			'weights'	: '300;400;600;700;900',
 		),
 		'typography': (
-			'font-family'	: 'Ubuntu',
-			'font-size'		: 13px,
-			'font-weight'	: 400,
-			'line-height'	: 1.7,
-			'header-weight'	: 900,
+			'font-family'		: 'Ubuntu',
+			'font-size'			: 13px,
+			'font-weight'		: 400,
+			'line-height'		: 1.7,
+			'header-weight'		: 900,
 		),
 		'color': (
 			'text'			: #161c2d,
@@ -57,8 +57,13 @@ $punica-themes: (
 		'elements': (
 			'button': (
 				'font-weight'		: 700,
-				'secondary-bg'		: linear-gradient(to top, #dce3ea 0%,#eef5fd 100%),
-				'secondary-bg-hover': linear-gradient(to bottom, #dce3ea 0%,#eef5fd 100%)
+				'secondary': (
+					'color'			: null,
+					'background'	: linear-gradient(to top, #dce3ea 0%,#eef5fd 100%),
+					'hover-color'	: null,
+					'hover-bg'		: linear-gradient(to bottom, #dce3ea 0%,#eef5fd 100%),
+					'border-color'	: null
+				)
 			),
 		)
 	)

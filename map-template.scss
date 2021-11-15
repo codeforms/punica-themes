@@ -49,8 +49,13 @@ theme_slug: (
 	'elements': (
 		'button': (
 			'font-weight'		: ,
-			'secondary-bg'		: ,
-			'secondary-bg-hover': 
+			'secondary': (
+					'color'			: ,
+					'background'	: ,
+					'hover-color'	: ,
+					'hover-bg'		: ,
+					'border-color'	: ,
+				)
 		),
 	)
 )
