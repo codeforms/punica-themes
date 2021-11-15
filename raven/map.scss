@@ -1,0 +1,70 @@
+/////////////////////////////////////////////////////////
+/// PUNICA CSS > THEMES > RAVEN : Theme map
+/////////////////////////////////////////////////////////
+///
+/// Read more about customization;
+/// @link http://punica.site/themes/raven
+///
+$punica-themes: (
+	raven: (
+		'name'	: 'Raven Theme',
+		'type'	: 'dark', // light or dark (required*),
+		'google-font': (
+			'name'		: 'Chakra+Petch', // or Source+Sans+Pro etc
+			'weights'	: '300;400;500;600;700',
+		),
+		'typography': (
+			'font-family'	: 'Chakra Petch',
+			'font-size'		: 14px,
+			'font-weight'	: 400,
+			'line-height'	: 1.7,
+			'header-weight'	: 700,
+		),
+		'color': (
+			'text'			: #8697cd,
+			'background'	: #0d0f15,
+			'primary'		: #374bbd,
+			'success'		: #426750,
+			'warning'		: #695843,
+			'error'			: #5f3b3d,
+			'active'		: lighten(#0d0f15, 3.7%),
+			'negative'		: #ffffffa8,
+			'grey'			: #3c455f,
+			'secondary'		: lighten(#0d0f15, 5%),
+			'dark'			: lighten(#0d0f15, 4.5%),
+		),
+		'border': (
+			'color' : lighten(#0d0f15, 23%),
+			'width'	: 1px,
+			'style'	: solid,
+			'radius': 0,
+		),
+		'shadow': (
+			'horizontal': 0,
+			'vertical'	: 2px,
+			'blur'		: 5px,
+			'spread'	: 1px,
+			'color'		: rgba(0, 0, 0, 0.14),
+		),
+		'input': (
+			'color'			: white,
+			'background'	: lighten(#0d0f15, 4.6%),
+			'border-color'	: lighten(#0d0f15, 26%),
+			'outline-color'	: #5d6b91,
+			'outline-width'	: 2px,
+			'label-weight'	: 600
+		),
+		'elements': (
+			'button': (
+				'font-weight'		: 500,
+				'secondary': (
+					'color'			: #ffffffa8,
+					'background'	: #433085,
+					'hover-color'	: null,
+					'hover-bg'		: lighten(#433085, 7.5%),
+					'border-color'	: lighten(#433085, 17%)
+				)
+			),
+		)
+	)
+)
