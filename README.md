@@ -15,9 +15,19 @@ Theme distribution files and nightly builds of <a href="https://github.com/codef
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/dark/punica-dark.min.css" crossorigin="anonymous">
 ```
 
+###### Dusty theme
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/dusty/punica-dusty.min.css" crossorigin="anonymous">
+```
+
 ###### Palenight theme
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/palenight/punica-palenight.min.css" crossorigin="anonymous">
+```
+
+###### Raven theme
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/raven/punica-raven.min.css" crossorigin="anonymous">
 ```
 
 ###### Retro theme
@@ -28,11 +38,6 @@ Theme distribution files and nightly builds of <a href="https://github.com/codef
 ###### Raisin theme
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/raisin/punica-raisin.min.css" crossorigin="anonymous">
-```
-
-###### Dusty theme
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/dusty/punica-dusty.min.css" crossorigin="anonymous">
 ```
 
 ###### Smart theme
