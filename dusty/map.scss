@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////
 ///
 /// Read more about customization;
-/// @link http://punica.site/themes/dusty
+/// @link http://www.punicacss.com/themes/dusty
 ///
 $punica-themes: (
 	dusty: (
@@ -53,6 +53,11 @@ $punica-themes: (
 			'outline-color'	: #8396b1,
 			'outline-width'	: 2px,
 			'label-weight'	: 900
+		),
+		'components': (
+			'navbar': (
+				'font-weight': 600
+			)
 		),
 		'elements': (
 			'button': (

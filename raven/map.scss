@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////
 ///
 /// Read more about customization;
-/// @link http://punica.site/themes/raven
+/// @link http://www.punicacss.com/themes/raven
 ///
 $punica-themes: (
 	raven: (
@@ -53,6 +53,11 @@ $punica-themes: (
 			'outline-color'	: #5d6b91,
 			'outline-width'	: 2px,
 			'label-weight'	: 600
+		),
+		'components': (
+			'navbar': (
+				'font-weight': 500
+			)
 		),
 		'elements': (
 			'button': (

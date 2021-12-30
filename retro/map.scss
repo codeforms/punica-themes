@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////
 ///
 /// Read more about customization;
-/// @link http://punica.site/themes/retro
+/// @link http://www.punicacss.com/themes/retro
 ///
 $punica-themes: (
 	retro: (
@@ -11,7 +11,7 @@ $punica-themes: (
 		'type'	: 'dark', // light or dark (required*),
 		'google-font': (
 			'name'		: 'Montserrat+Alternates', // or Source+Sans+Pro etc
-			'weights'	: '300;400;500;700;900',
+			'weights'	: '300;400;500;600;700;900',
 		),
 		'typography': (
 			'font-family'		: 'Montserrat Alternates',
@@ -53,6 +53,11 @@ $punica-themes: (
 			'outline-color'	: lighten(#493323, 38%),
 			'outline-width'	: 2px,
 			'label-weight'	: 700
+		),
+		'components': (
+			'navbar': (
+				'font-weight': 600
+			)
 		),
 		'elements': (
 			'button': (
