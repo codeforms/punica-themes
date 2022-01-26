@@ -47,9 +47,9 @@ $punica-themes: (
 			'color'		: rgba(0, 0, 0, 0.1),
 		),
 		'input': (
-			'color'			: #353535,
+			'color'			: null, // (null = color > text)
 			'background'	: white,
-			'border-color'	: #d3d3d3,
+			'border-color'	: null, // (null = border > color)
 			'outline-color'	: #8396b1,
 			'outline-width'	: 2px,
 			'label-weight'	: 900
@@ -60,6 +60,10 @@ $punica-themes: (
 			),
 			'tabnav': (
 				'font-weight': 600
+			),
+			'card': (
+				'background': null, // (null = color > background)
+				'radius': null // (null = border > radius)
 			)
 		),
 		'elements': (

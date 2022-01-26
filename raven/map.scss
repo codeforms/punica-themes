@@ -47,9 +47,9 @@ $punica-themes: (
 			'color'		: rgba(0, 0, 0, 0.14),
 		),
 		'input': (
-			'color'			: white,
+			'color'			: null, // (null = color > text)
 			'background'	: lighten(#0d0f15, 4.6%),
-			'border-color'	: lighten(#0d0f15, 26%),
+			'border-color'	: lighten(#0d0f15, 26%), // (null = border > color)
 			'outline-color'	: #5d6b91,
 			'outline-width'	: 2px,
 			'label-weight'	: 600
@@ -60,6 +60,10 @@ $punica-themes: (
 			),
 			'tabnav': (
 				'font-weight': 500
+			),
+			'card': (
+				'background': lighten(#0d0f15, 1.54%), // (null = color > background)
+				'radius': 3px // (null = border > radius)
 			)
 		),
 		'elements': (
