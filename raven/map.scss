@@ -63,12 +63,17 @@ $punica-themes: (
 			),
 			'card': (
 				'background': lighten(#0d0f15, 1.54%), // (null = color > background)
-				'radius': 3px // (null = border > radius)
+				'radius'	: 3px // (null = border > radius)
+			),
+			'panel': (
+				'background': null, // (null = color > background)
+				'radius'	: null // (null = border > radius)
 			)
 		),
 		'elements': (
 			'button': (
-				'font-weight'		: 500,
+				'font-weight'	: 500,
+				'radius'		: null, // (null = border > radius)
 				'secondary': (
 					'color'			: #ffffffa8,
 					'background'	: #433085,
