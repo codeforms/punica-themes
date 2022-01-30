@@ -10,14 +10,14 @@ $punica-themes: (
 		'name'	: 'Dark Theme',
 		'type'	: 'dark', // light or dark (required*),
 		'google-font': (
-			'name'		: 'Quicksand', // or Source+Sans+Pro etc
-			'weights'	: '300;400;500;600;700',
+			'name'		: 'IBM+Plex+Sans+Hebrew', // or Source+Sans+Pro etc
+			'weights'	: '300;400;600;700',
 		),
 		'typography': (
-			'font-family'	: 'Quicksand',
-			'font-size'		: .8265em,
-			'font-weight'	: 500,
-			'line-height'	: 1.8,
+			'font-family'	: 'IBM Plex Sans Hebrew',
+			'font-size'		: 13px,
+			'font-weight'	: 400,
+			'line-height'	: 1.7,
 			'header-weight'	: 700,
 		),
 		'color': (
@@ -41,18 +41,18 @@ $punica-themes: (
 		),
 		'shadow': (
 			'horizontal': 0,
-			'vertical'	: 2px,
-			'blur'		: 5px,
-			'spread'	: 1px,
-			'color'		: rgba(0, 0, 0, 0.14),
+			'vertical'	: 1px,
+			'blur'		: 4px,
+			'spread'	: 0,
+			'color'		: rgba(0, 0, 0, 0.15),
 		),
 		'input': (
 			'color'			: null, // (null = color > text)
-			'background'	: lighten(#26272b, 8.5%),
+			'background'	: lighten(#26272b, 4.5%),
 			'border-color'	: null, // (null = border > color)
 			'outline-color'	: white,
 			'outline-width'	: 2px,
-			'label-weight'	: 700
+			'label-weight'	: 600
 		),
 		'components': (
 			'navbar': (
@@ -72,7 +72,7 @@ $punica-themes: (
 		),
 		'elements': (
 			'button': (
-				'font-weight'	: 700,
+				'font-weight'	: 600,
 				'radius'		: null, // (null = border > radius)
 				'secondary': (
 					'color'			: null,
