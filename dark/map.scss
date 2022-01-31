@@ -22,19 +22,19 @@ $punica-themes: (
 		),
 		'color': (
 			'text'			: white,
-			'background'	: #26272b,
-			'primary'		: #3954a5,
+			'background'	: #252831,
+			'primary'		: #3e5bb2,
 			'success'		: #2f8f5d,
 			'warning'		: #ab7d2d,
 			'error'			: #ab2d2d,
-			'active'		: lighten(#26272b, 3.7%),
+			'active'		: lighten(#252831, 3.7%),
 			'negative'		: white,
-			'grey'			: #6c6e79,
-			'secondary'		: lighten(#26272b, 5%),
-			'dark'			: lighten(#26272b, 4.5%),
+			'grey'			: #6d758c,
+			'secondary'		: lighten(#252831, 5%),
+			'dark'			: lighten(#252831, 4.5%),
 		),
 		'border': (
-			'color' : lighten(#26272b, 23%),
+			'color' : lighten(#252831, 17%),
 			'width'	: 1px,
 			'style'	: solid,
 			'radius': 4px,
@@ -48,7 +48,7 @@ $punica-themes: (
 		),
 		'input': (
 			'color'			: null, // (null = color > text)
-			'background'	: lighten(#26272b, 4.5%),
+			'background'	: lighten(#252831, 4.5%),
 			'border-color'	: null, // (null = border > color)
 			'outline-color'	: white,
 			'outline-width'	: 2px,
@@ -62,7 +62,7 @@ $punica-themes: (
 				'font-weight': 600
 			),
 			'card': (
-				'background': lighten(#26272b, 1.75%), // (null = color > background)
+				'background': lighten(#252831, 1.75%), // (null = color > background)
 				'radius'	: null // (null = border > radius)
 			),
 			'panel': (
@@ -76,9 +76,9 @@ $punica-themes: (
 				'radius'		: null, // (null = border > radius)
 				'secondary': (
 					'color'			: null,
-					'background'	: linear-gradient(to top, #202125 0%,#26272b 100%),
+					'background'	: linear-gradient(to top, #1e2027 0%,#252831 100%),
 					'hover-color'	: null,
-					'hover-bg'		: linear-gradient(to bottom, #202125 0%,#26272b 100%),
+					'hover-bg'		: linear-gradient(to bottom, #1e2027 0%,#252831 100%),
 					'border-color'	: null
 				)
 			),

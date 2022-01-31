@@ -15,7 +15,7 @@ $punica-themes: (
 		),
 		'typography': (
 			'font-family'		: 'Montserrat Alternates',
-			'font-size'			: .7493em,
+			'font-size'			: 13px,
 			'font-weight'		: 500,
 			'line-height'		: 1.8,
 			'header-weight'		: 900,
@@ -25,7 +25,7 @@ $punica-themes: (
 			'background'	: #493323,
 			'primary'		: #5eaaa8,
 			'success'		: #879a67,
-			'warning'		: #de7e57,
+			'warning'		: #cc7551,
 			'error'			: #cd5c5c,
 			'active'		: lighten(#493323, 3.7%),
 			'negative'		: white,
@@ -34,10 +34,10 @@ $punica-themes: (
 			'dark'			: lighten(#493323, 8.5%),
 		),
 		'border': (
-			'color' : lighten(#493323, 10%),
+			'color' : lighten(#493323, 7.68%),
 			'width'	: 1px,
 			'style'	: solid,
-			'radius': 2px,
+			'radius': 4px,
 		),
 		'shadow': (
 			'horizontal': 0,
@@ -59,7 +59,7 @@ $punica-themes: (
 				'font-weight': 600
 			),
 			'tabnav': (
-				'font-weight': 500
+				'font-weight': 600
 			),
 			'card': (
 				'background': lighten(#493323, 1.75%), // (null = color > background)
