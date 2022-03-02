@@ -11,14 +11,14 @@ $punica-themes: (
 		'type'	: 'light', // light or dark (required*),
 		'google-font': (
 			'name'		: 'Source+Sans+Pro', // or Source+Sans+Pro etc
-			'weights'	: '300;400;600;700;900',
+			'weights'	: '300;400;600;700',
 		),
 		'typography': (
 			'font-family'		: 'Source Sans Pro',
 			'font-size'			: .8538em,
 			'font-weight'		: 400,
 			'line-height'		: 1.9,
-			'header-weight'		: 900,
+			'header-weight'		: 700,
 		),
 		'color': (
 			'text'			: #525252,
@@ -52,7 +52,7 @@ $punica-themes: (
 			'border-color'	: null, // (null = border > color)
 			'outline-color'	: #8396b1,
 			'outline-width'	: 2px,
-			'label-weight'	: 900
+			'label-weight'	: 700
 		),
 		'components': (
 			'navbar': (
@@ -72,7 +72,7 @@ $punica-themes: (
 		),
 		'elements': (
 			'button': (
-				'font-weight'	: 900,
+				'font-weight'	: 700,
 				'radius'		: null, // (null = border > radius)
 				'secondary': (
 					'color'			: null,
