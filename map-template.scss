@@ -45,23 +45,27 @@ theme_slug: (
 		'outline-color'	: ,
 		'outline-width'	: ,
 		'label-weight'	: ,
+		'transition'	: ,
 	),
 	'components': (
-			'navbar': (
-				'font-weight': ,
-			),
-			'tabnav': (
-				'font-weight': ,
-			),
-			'card': (
-				'background': null, // (null = color > background)
-				'radius'	: null // (null = border > radius)
-			),
-			'panel': (
-				'background': null, // (null = color > background)
-				'radius'	: null // (null = border > radius)
-			)
+		'navbar': (
+			'font-weight': ,
 		),
+		'tabnav': (
+			'font-weight': ,
+		),
+		'card': (
+			'background': null, // (null = color > background)
+			'radius'	: null // (null = border > radius)
+		),
+		'panel': (
+			'background': null, // (null = color > background)
+			'radius'	: null // (null = border > radius)
+		),
+		'menu': (
+			'background': null, // (null = color > background)
+		)
+	),
 	'elements': (
 		'button': (
 			'font-weight'	: ,

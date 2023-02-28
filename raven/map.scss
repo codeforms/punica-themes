@@ -52,7 +52,8 @@ $punica-themes: (
 			'border-color'	: lighten(#0d0f15, 26%), // (null = border > color)
 			'outline-color'	: #5d6b91,
 			'outline-width'	: 2px,
-			'label-weight'	: 600
+			'label-weight'	: 600,
+			'transition'	: .35s
 		),
 		'components': (
 			'navbar': (
@@ -68,6 +69,9 @@ $punica-themes: (
 			'panel': (
 				'background': null, // (null = color > background)
 				'radius'	: null // (null = border > radius)
+			),
+			'menu': (
+				'background': null, // (null = color > background)
 			)
 		),
 		'elements': (
