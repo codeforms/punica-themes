@@ -20,6 +20,11 @@ Theme distribution files and nightly builds of <a href="https://github.com/codef
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/dusty/punica-dusty.min.css" crossorigin="anonymous">
 ```
 
+###### Monochrome theme
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/monochrome/punica-monochrome.min.css" crossorigin="anonymous">
+```
+
 ###### Palenight theme
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/codeforms/punica-themes@latest/palenight/punica-palenight.min.css" crossorigin="anonymous">

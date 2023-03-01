@@ -1,0 +1,91 @@
+/////////////////////////////////////////////////////////
+/// PUNICA CSS > THEMES > MONOCHROME : Theme map
+/////////////////////////////////////////////////////////
+///
+/// Read more about customization;
+/// @link http://www.punicacss.com/themes
+///
+$punica-themes: (
+	monochrome: (
+		'name'	: 'Monochrome',
+		'type'	: 'light', // light or dark (required*),
+		'google-font': (
+			'name'		: 'Asap', // or Source+Sans+Pro etc
+			'weights'	: '400;600;800',
+		),
+		'typography': (
+			'font-family'		: 'Asap',
+			'font-size'			: .89em,
+			'font-weight'		: 400,
+			'line-height'		: 1.7,
+			'header-weight'		: 800,
+		),
+		'color': (
+			'text'			: #202020,
+			'background'	: #bfbfbf,
+			'primary'		: #282c2f,
+			'success'		: #397b47,
+			'warning'		: #82671e,
+			'error'			: #862f36,
+			'active'		: #ccc,
+			'negative'		: #f5f5f5,
+			'grey'			: #6f6f6f,
+			'secondary'		: #d5d5d5,
+			'dark'			: #191919,
+		),
+		'border': (
+			'color' : #8f8f8f,
+			'width'	: 1px,
+			'style'	: solid,
+			'radius': 0,
+		),
+		'shadow': (
+			'horizontal': 0,
+			'vertical'	: 2px,
+			'blur'		: 4px,
+			'spread'	: 0,
+			'color'		: rgba(0, 0, 0, 0.27),
+		),
+		'input': (
+			'color'			: null, // (null = color > text)
+			'background'	: #c8c8c8,
+			'border-color'	: null, // (null = border > color)
+			'outline-color'	: #282c2f,
+			'outline-width'	: 2px,
+			'label-weight'	: 600,
+			'transition'	: .35s
+		),
+		'components': (
+			'navbar': (
+				'font-weight': 600
+			),
+			'tabnav': (
+				'font-weight': 600,
+			),
+			'card': (
+				'background': null, // (null = color > background)
+				'radius'	: 0 // (null = border > radius)
+			),
+			'panel': (
+				'background': null, // (null = color > background)
+				'radius'	: null // (null = border > radius)
+			),
+			'menu': (
+				'background': white, // (null = color > background)
+			)
+		),
+		'elements': (
+			'button': (
+				'font-weight'	: 600,
+				'radius'		: null, // (null = border > radius)
+				'secondary': (
+					'color'			: white,
+					'background'	: #2e86c1,
+					'hover-color'	: null,
+					'hover-bg'		: #45a1dd,
+					'border-color'	: #2874a6
+				)
+			),
+		)
+	)
+)
