@@ -11,11 +11,11 @@ $punica-themes: (
 		'type'	: 'light', // light or dark (required*),
 		'google-font': (
 			'name'		: 'Asap', // or Source+Sans+Pro etc
-			'weights'	: '400;600;800',
+			'weights'	: '300;400;600;700;800',
 		),
 		'typography': (
 			'font-family'		: 'Asap',
-			'font-size'			: .89em,
+			'font-size'			: .88em,
 			'font-weight'		: 400,
 			'line-height'		: 1.7,
 			'header-weight'		: 800,
@@ -48,7 +48,7 @@ $punica-themes: (
 		),
 		'input': (
 			'color'			: null, // (null = color > text)
-			'background'	: #c8c8c8,
+			'background'	: #d2d2d2,
 			'border-color'	: null, // (null = border > color)
 			'outline-color'	: #282c2f,
 			'outline-width'	: 2px,

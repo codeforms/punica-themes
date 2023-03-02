@@ -1,51 +1,51 @@
 theme_slug: (
-	'name'	: 'Theme Name',
-	'type'	: 'light', // light or dark (required*),
+	'name' : 'Theme Name',
+	'type' : 'light', // light or dark (required*),
 	'google-font': (
-		'name'		: '',
-		'weights'	: '',
+		'name'    : '',
+		'weights' : '',
 	),
 	'typography': (
-		'font-family'	: '',
-		'font-size'		: ,
-		'font-weight'	: ,
-		'line-height'	: ,
-		'header-weight'	: ,
+		'font-family'   : '',
+		'font-size'     : ,
+		'font-weight'   : ,
+		'line-height'   : ,
+		'header-weight' : ,
 	),
 	'color': (
-		'text'			: ,
-		'background'	: ,
-		'primary'		: ,
-		'success'		: ,
-		'warning'		: ,
-		'error'			: ,
-		'active'		: ,
-		'negative'		: ,
-		'grey'			: ,
-		'secondary'		: ,
-		'dark'			: ,
+		'text'       : ,
+		'background' : ,
+		'primary'    : ,
+		'success'    : ,
+		'warning'    : ,
+		'error'      : ,
+		'active'     : ,
+		'negative'   : ,
+		'grey'       : ,
+		'secondary'  : ,
+		'dark'       : ,
 	),
 	'border': (
-		'color' : ,
-		'width'	: ,
-		'style'	: ,
-		'radius': ,
+		'color'  : ,
+		'width'  : ,
+		'style'  : ,
+		'radius' : ,
 	),
 	'shadow': (
-		'horizontal': ,
-		'vertical'	: ,
-		'blur'		: ,
-		'spread'	: ,
-		'color'		: ,
+		'horizontal' : ,
+		'vertical'   : ,
+		'blur'       : ,
+		'spread'     : ,
+		'color'      : ,
 	),
 	'input': (
-		'color'			: ,
-		'background'	: ,
-		'border-color'	: ,
-		'outline-color'	: ,
-		'outline-width'	: ,
-		'label-weight'	: ,
-		'transition'	: ,
+		'color'         : ,
+		'background'    : ,
+		'border-color'  : ,
+		'outline-color' : ,
+		'outline-width' : ,
+		'label-weight'  : ,
+		'transition'    : ,
 	),
 	'components': (
 		'navbar': (
@@ -55,12 +55,12 @@ theme_slug: (
 			'font-weight': ,
 		),
 		'card': (
-			'background': null, // (null = color > background)
-			'radius'	: null // (null = border > radius)
+			'background' : null, // (null = color > background)
+			'radius'     : null // (null = border > radius)
 		),
 		'panel': (
-			'background': null, // (null = color > background)
-			'radius'	: null // (null = border > radius)
+			'background' : null, // (null = color > background)
+			'radius'     : null // (null = border > radius)
 		),
 		'menu': (
 			'background': null, // (null = color > background)
@@ -68,14 +68,14 @@ theme_slug: (
 	),
 	'elements': (
 		'button': (
-			'font-weight'	: ,
-			'radius'		: null, // (null = border > radius)
+			'font-weight' : ,
+			'radius'      : null, // (null = border > radius)
 			'secondary': (
-					'color'			: ,
-					'background'	: ,
-					'hover-color'	: ,
-					'hover-bg'		: ,
-					'border-color'	: ,
+					'color'        : ,
+					'background'   : ,
+					'hover-color'  : ,
+					'hover-bg'     : ,
+					'border-color' : ,
 				)
 		),
 	)

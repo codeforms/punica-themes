@@ -7,68 +7,68 @@
 ///
 $punica-themes: (
 	retro: (
-		'name'	: 'Retro Theme',
-		'type'	: 'dark', // light or dark (required*),
+		'name' : 'Retro Theme',
+		'type' : 'dark', // light or dark (required*),
 		'google-font': (
-			'name'		: 'Montserrat+Alternates', // or Source+Sans+Pro etc
-			'weights'	: '300;400;500;600;700;900',
+			'name'    : 'Montserrat+Alternates', // or Source+Sans+Pro etc
+			'weights' : '400;500;600;700;900',
 		),
 		'typography': (
-			'font-family'		: 'Montserrat Alternates',
-			'font-size'			: 13px,
-			'font-weight'		: 500,
-			'line-height'		: 1.8,
-			'header-weight'		: 900,
+			'font-family'   : 'Montserrat Alternates',
+			'font-size'     : 13px,
+			'font-weight'   : 500,
+			'line-height'   : 1.8,
+			'header-weight' : 900,
 		),
 		'color': (
-			'text'			: white,
-			'background'	: #493323,
-			'primary'		: #5eaaa8,
-			'success'		: #879a67,
-			'warning'		: #cc7551,
-			'error'			: #cd5c5c,
-			'active'		: lighten(#493323, 3.7%),
-			'negative'		: white,
-			'grey'			: lighten(#493323, 24%),
-			'secondary'		: lighten(#493323, 7.4%),
-			'dark'			: lighten(#493323, 8.5%),
+			'text'       : white,
+			'background' : #493323,
+			'primary'    : #5eaaa8,
+			'success'    : #879a67,
+			'warning'    : #cc7551,
+			'error'      : #cd5c5c,
+			'active'     : lighten(#493323, 3.7%),
+			'negative'   : white,
+			'grey'       : lighten(#493323, 24%),
+			'secondary'  : lighten(#493323, 7.4%),
+			'dark'       : lighten(#493323, 8.5%),
 		),
 		'border': (
-			'color' : lighten(#493323, 7.68%),
-			'width'	: 1px,
-			'style'	: solid,
-			'radius': 4px,
+			'color'  : lighten(#493323, 7.68%),
+			'width'  : 1px,
+			'style'  : solid,
+			'radius' : 4px,
 		),
 		'shadow': (
-			'horizontal': 0,
-			'vertical'	: 2px,
-			'blur'		: 4px,
-			'spread'	: 1px,
-			'color'		: rgba(0, 0, 0, 0.24),
+			'horizontal' : 0,
+			'vertical'   : 2px,
+			'blur'       : 4px,
+			'spread'     : 1px,
+			'color'      : rgba(0, 0, 0, 0.24),
 		),
 		'input': (
-			'color'			: null, // (null = color > text)
-			'background'	: lighten(#493323, 8.5%),
-			'border-color'	: lighten(#493323, 26%), // (null = border > color)
-			'outline-color'	: lighten(#493323, 38%),
-			'outline-width'	: 2px,
-			'label-weight'	: 700,
-			'transition'	: .35s
+			'color'         : null, // (null = color > text)
+			'background'    : lighten(#493323, 8.5%),
+			'border-color'  : lighten(#493323, 26%), // (null = border > color)
+			'outline-color' : lighten(#493323, 38%),
+			'outline-width' : 2px,
+			'label-weight'  : 700,
+			'transition'    : .35s
 		),
 		'components': (
 			'navbar': (
-				'font-weight': 600
+				'font-weight': 700
 			),
 			'tabnav': (
 				'font-weight': 600
 			),
 			'card': (
-				'background': lighten(#493323, 1.75%), // (null = color > background)
-				'radius'	: null // (null = border > radius)
+				'background' : lighten(#493323, 1.75%), // (null = color > background)
+				'radius'     : null // (null = border > radius)
 			),
 			'panel': (
-				'background': null, // (null = color > background)
-				'radius'	: null // (null = border > radius)
+				'background' : null, // (null = color > background)
+				'radius'     : null // (null = border > radius)
 			),
 			'menu': (
 				'background': null, // (null = color > background)
@@ -76,14 +76,14 @@ $punica-themes: (
 		),
 		'elements': (
 			'button': (
-				'font-weight'	: 700,
-				'radius'		: null, // (null = border > radius)
+				'font-weight' : 700,
+				'radius'      : null, // (null = border > radius)
 				'secondary': (
-					'color'			: null,
-					'background'	: linear-gradient(to top, #493323 0%,lighten(#493323, 8.5%) 100%),
-					'hover-color'	: null,
-					'hover-bg'		: linear-gradient(to bottom, #493323 0%,lighten(#493323, 8.5%) 100%),
-					'border-color'	: null
+					'color'        : null,
+					'background'   : linear-gradient(to top, #493323 0%,lighten(#493323, 8.5%) 100%),
+					'hover-color'  : null,
+					'hover-bg'     : lisnear-gradient(to bottom, #493323 0%,lighten(#493323, 8.5%) 100%),
+					'border-color' : null
 				)
 			),
 		)

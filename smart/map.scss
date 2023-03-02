@@ -7,68 +7,68 @@
 ///
 $punica-themes: (
 	smart: (
-		'name'	: 'Smart Theme',
-		'type'	: 'light', // light or dark (required*),
+		'name' : 'Smart Theme',
+		'type' : 'light', // light or dark (required*),
 		'google-font': (
-			'name'		: 'Ubuntu', // or Source+Sans+Pro etc
-			'weights'	: '300;400;500;600;700;900',
+			'name'    : 'Ubuntu', // or Source+Sans+Pro etc
+			'weights' : '400;500;600;700;900',
 		),
 		'typography': (
-			'font-family'		: 'Ubuntu',
-			'font-size'			: 13px,
-			'font-weight'		: 400,
-			'line-height'		: 1.7,
-			'header-weight'		: 900,
+			'font-family'   : 'Ubuntu',
+			'font-size'     : .863em,
+			'font-weight'   : 400,
+			'line-height'   : 1.8,
+			'header-weight' : 900,
 		),
 		'color': (
-			'text'			: #161c2d,
-			'background'	: #fbfbfb,
-			'primary'		: #4582ec,
-			'success'		: #689e5b,
-			'warning'		: #b07f39,
-			'error'			: #ae423f,
-			'active'		: #dcdcdc,
-			'negative'		: white,
-			'grey'			: #a8a8a8,
-			'secondary'		: #e6e6e6,
-			'dark'			: #343a40,
+			'text'       : #161c2d,
+			'background' : #fbfbfb,
+			'primary'    : #4582ec,
+			'success'    : #689e5b,
+			'warning'    : #b07f39,
+			'error'      : #ae423f,
+			'active'     : #dcdcdc,
+			'negative'   : white,
+			'grey'       : #a8a8a8,
+			'secondary'  : #e6e6e6,
+			'dark'       : #343a40,
 		),
 		'border': (
-			'color' : #c0bfbf,
-			'width'	: 1px,
-			'style'	: solid,
-			'radius': .245rem,
+			'color'  : #c0bfbf,
+			'width'  : 1px,
+			'style'  : solid,
+			'radius' : .245rem,
 		),
 		'shadow': (
-			'horizontal': 0,
-			'vertical'	: 2px,
-			'blur'		: 5px,
-			'spread'	: 0,
-			'color'		: rgba(0, 0, 0, 0.2),
+			'horizontal' : 0,
+			'vertical'   : 2px,
+			'blur'       : 5px,
+			'spread'     : 0,
+			'color'      : rgba(0, 0, 0, 0.2),
 		),
 		'input': (
-			'color'			: null, // (null = color > text)
-			'background'	: white,
-			'border-color'	: #c6c6c6, // (null = border > color)
-			'outline-color'	: #000,
-			'outline-width'	: 1px,
-			'label-weight'	: 700,
-			'transition'	: .35s
+			'color'         : null, // (null = color > text)
+			'background'    : white,
+			'border-color'  : #c6c6c6, // (null = border > color)
+			'outline-color' : #000,
+			'outline-width' : 1px,
+			'label-weight'  : 700,
+			'transition'    : .35s
 		),
 		'components': (
 			'navbar': (
-				'font-weight': 500
+				'font-weight': 700
 			),
 			'tabnav': (
-				'font-weight': 500
+				'font-weight': 600
 			),
 			'card': (
-				'background': darken(#fbfbfb, 1.93%), // (null = color > background)
-				'radius'	: null // (null = border > radius)
+				'background' : darken(#fbfbfb, 1.93%), // (null = color > background)
+				'radius'     : null // (null = border > radius)
 			),
 			'panel': (
-				'background': null, // (null = color > background)
-				'radius'	: null // (null = border > radius)
+				'background' : null, // (null = color > background)
+				'radius'     : null // (null = border > radius)
 			),
 			'menu': (
 				'background': null, // (null = color > background)
@@ -76,14 +76,14 @@ $punica-themes: (
 		),
 		'elements': (
 			'button': (
-				'font-weight'	: 700,
-				'radius'		: null, // (null = border > radius)
+				'font-weight' : 700,
+				'radius'      : null, // (null = border > radius)
 				'secondary': (
-					'color'			: null,
-					'background'	: linear-gradient(to top, #dce3ea 0%,#eef5fd 100%),
-					'hover-color'	: null,
-					'hover-bg'		: linear-gradient(to bottom, #dce3ea 0%,#eef5fd 100%),
-					'border-color'	: null
+					'color'        : null,
+					'background'   : linear-gradient(to top, #dce3ea 0%,#eef5fd 100%),
+					'hover-color'  : null,
+					'hover-bg'     : linear-gradient(to bottom, #dce3ea 0%,#eef5fd 100%),
+					'border-color' : null
 				)
 			),
 		)

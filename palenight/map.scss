@@ -7,68 +7,68 @@
 ///
 $punica-themes: (
 	palenight: (
-		'name'	: 'Palenight Theme',
-		'type'	: 'dark', // light or dark (required*),
+		'name' : 'Palenight Theme',
+		'type' : 'dark', // light or dark (required*),
 		'google-font': (
-			'name'		: 'Roboto', // or Source+Sans+Pro etc
-			'weights'	: '300;400;500;700;900',
+			'name'    : 'Hind+Madurai', // or Source+Sans+Pro etc
+			'weights' : '400;500;600;700',
 		),
 		'typography': (
-			'font-family'		: 'Roboto',
-			'font-size'			: 13px,
-			'font-weight'		: 400,
-			'line-height'		: 1.7,
-			'header-weight'		: 900,
+			'font-family'   : 'Hind Madurai',
+			'font-size'     : .9em,
+			'font-weight'   : 400,
+			'line-height'   : 1.7,
+			'header-weight' : 700,
 		),
 		'color': (
-			'text'			: white,
-			'background'	: #292d3e,
-			'primary'		: #30a3d1,
-			'success'		: #87a45d,
-			'warning'		: #b9924a,
-			'error'			: #a64f53,
-			'active'		: lighten(#292d3e, 3.7%),
-			'negative'		: white,
-			'grey'			: #565e81,
-			'secondary'		: lighten(#292d3e, 5%),
-			'dark'			: lighten(#292d3e, 4.5%),
+			'text'       : white,
+			'background' : #292d3e,
+			'primary'    : #30a3d1,
+			'success'    : #87a45d,
+			'warning'    : #b9924a,
+			'error'      : #a64f53,
+			'active'     : lighten(#292d3e, 3.7%),
+			'negative'   : white,
+			'grey'       : #565e81,
+			'secondary'  : lighten(#292d3e, 5%),
+			'dark'       : lighten(#292d3e, 4.5%),
 		),
 		'border': (
-			'color' : lighten(#292d3e, 23%),
-			'width'	: 1px,
-			'style'	: solid,
-			'radius': 4px,
+			'color'  : lighten(#292d3e, 23%),
+			'width'  : 1px,
+			'style'  : solid,
+			'radius' : 4px,
 		),
 		'shadow': (
-			'horizontal': 0,
-			'vertical'	: 1px,
-			'blur'		: 1px,
-			'spread'	: 0,
-			'color'		: rgb(0, 0, 0 / 1.5%),
+			'horizontal' : 0,
+			'vertical'   : 1px,
+			'blur'       : 1px,
+			'spread'     : 0,
+			'color'      : rgb(0, 0, 0 / 1.5%),
 		),
 		'input': (
-			'color'			: null, // (null = color > text)
-			'background'	: lighten(#292d3e, 8.5%),
-			'border-color'	: null, // (null = border > color)
-			'outline-color'	: white,
-			'outline-width'	: 2px,
-			'label-weight'	: 700,
-			'transition'	: .35s
+			'color'         : null, // (null = color > text)
+			'background'    : lighten(#292d3e, 8.5%),
+			'border-color'  : null, // (null = border > color)
+			'outline-color' : white,
+			'outline-width' : 2px,
+			'label-weight'  : 700,
+			'transition'    : .35s
 		),
 		'components': (
 			'navbar': (
-				'font-weight': 500
+				'font-weight': 600
 			),
 			'tabnav': (
-				'font-weight': 500
+				'font-weight': 600
 			),
 			'card': (
-				'background': lighten(#292d3e, 1.75%), // (null = color > background)
-				'radius'	: null // (null = border > radius)
+				'background' : lighten(#292d3e, 1.75%), // (null = color > background)
+				'radius'     : null // (null = border > radius)
 			),
 			'panel': (
-				'background': null, // (null = color > background)
-				'radius'	: null // (null = border > radius)
+				'background' : null, // (null = color > background)
+				'radius'     : null // (null = border > radius)
 			),
 			'menu': (
 				'background': null, // (null = color > background)
@@ -76,14 +76,14 @@ $punica-themes: (
 		),
 		'elements': (
 			'button': (
-				'font-weight'	: 700,
-				'radius'		: null, // (null = border > radius)
+				'font-weight' : 700,
+				'radius'      : null, // (null = border > radius)
 				'secondary': (
-					'color'			: null,
-					'background'	: linear-gradient(to top, #292d3e 0%,#31364b 100%),
-					'hover-color'	: null,
-					'hover-bg'		: linear-gradient(to bottom, #292d3e 0%,#31364b 100%),
-					'border-color'	: null
+					'color'        : null,
+					'background'   : linear-gradient(to top, #292d3e 0%,#31364b 100%),
+					'hover-color'  : null,
+					'hover-bg'     : linear-gradient(to bottom, #292d3e 0%,#31364b 100%),
+					'border-color' : null
 				)
 			),
 		)
