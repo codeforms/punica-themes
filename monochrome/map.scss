@@ -7,31 +7,31 @@
 ///
 $punica-themes: (
 	monochrome: (
-		'name'	: 'Monochrome',
-		'type'	: 'light', // light or dark (required*),
+		'name' : 'Monochrome',
+		'type' : 'light', // light or dark (required*),
 		'google-font': (
-			'name'		: 'Asap', // or Source+Sans+Pro etc
-			'weights'	: '300;400;600;700;800',
+			'name'    : 'Asap', // or Source+Sans+Pro etc
+			'weights' : '300;400;600;700;800',
 		),
 		'typography': (
-			'font-family'		: 'Asap',
-			'font-size'			: .88em,
-			'font-weight'		: 400,
-			'line-height'		: 1.7,
-			'header-weight'		: 800,
+			'font-family'   : 'Asap',
+			'font-size'     : .88em,
+			'font-weight'   : 400,
+			'line-height'   : 1.7,
+			'header-weight' : 800,
 		),
 		'color': (
-			'text'			: #202020,
-			'background'	: #bfbfbf,
-			'primary'		: #282c2f,
-			'success'		: #397b47,
-			'warning'		: #82671e,
-			'error'			: #862f36,
-			'active'		: #ccc,
-			'negative'		: #f5f5f5,
-			'grey'			: #6f6f6f,
-			'secondary'		: #d5d5d5,
-			'dark'			: #191919,
+			'text'       : #202020,
+			'background' : #bfbfbf,
+			'primary'    : #282c2f,
+			'success'    : #397b47,
+			'warning'    : #82671e,
+			'error'      : #862f36,
+			'active'     : #ccc,
+			'negative'   : #f5f5f5,
+			'grey'       : #6f6f6f,
+			'secondary'  : #d5d5d5,
+			'dark'       : #191919,
 		),
 		'border': (
 			'color' : #8f8f8f,
@@ -42,18 +42,18 @@ $punica-themes: (
 		'shadow': (
 			'horizontal': 0,
 			'vertical'	: 2px,
-			'blur'		: 4px,
+			'blur'		: 2px,
 			'spread'	: 0,
-			'color'		: rgba(0, 0, 0, 0.27),
+			'color'		: rgba(0, 0, 0, 0.2),
 		),
 		'input': (
-			'color'			: null, // (null = color > text)
-			'background'	: #d2d2d2,
-			'border-color'	: null, // (null = border > color)
-			'outline-color'	: #282c2f,
-			'outline-width'	: 2px,
-			'label-weight'	: 600,
-			'transition'	: .35s
+			'color'         : null, // (null = color > text)
+			'background'    : #d2d2d2,
+			'border-color'  : null, // (null = border > color)
+			'outline-color' : #282c2f,
+			'outline-width' : 2px,
+			'label-weight'  : 600,
+			'transition'    : .35s
 		),
 		'components': (
 			'navbar': (
@@ -63,8 +63,8 @@ $punica-themes: (
 				'font-weight': 600,
 			),
 			'card': (
-				'background': null, // (null = color > background)
-				'radius'	: 0 // (null = border > radius)
+				'background': #e1e0e0, // (null = color > background)
+				'radius'	: null // (null = border > radius)
 			),
 			'panel': (
 				'background': null, // (null = color > background)
@@ -76,14 +76,14 @@ $punica-themes: (
 		),
 		'elements': (
 			'button': (
-				'font-weight'	: 600,
-				'radius'		: null, // (null = border > radius)
+				'font-weight' : 600,
+				'radius'      : null, // (null = border > radius)
 				'secondary': (
-					'color'			: white,
-					'background'	: #2e86c1,
-					'hover-color'	: null,
-					'hover-bg'		: #45a1dd,
-					'border-color'	: #2874a6
+					'color'        : white,
+					'background'   : #2e86c1,
+					'hover-color'  : null,
+					'hover-bg'     : #45a1dd,
+					'border-color' : #2874a6
 				)
 			),
 		)
