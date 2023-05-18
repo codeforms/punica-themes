@@ -1,0 +1,91 @@
+/////////////////////////////////////////////////////////
+/// PUNICA CSS > THEMES > ELEGANCE : Theme map
+/////////////////////////////////////////////////////////
+///
+/// Read more about customization;
+/// @link http://www.punicacss.com/themes/elegance
+///
+$punica-themes: (
+	elegance: (
+		'name' : 'Elegance',
+		'type' : 'light', // light or dark (required*),
+		'google-font': (
+			'name'    : 'Fira+Sans', // or Source+Sans+Pro etc
+			'weights' : '300;400;500',
+		),
+		'typography': (
+			'font-family'   : 'Fira Sans',
+			'font-size'     : 13px,
+			'font-weight'   : 300,
+			'line-height'   : 1.9,
+			'header-weight' : 400,
+		),
+		'color': (
+			'text'       : #303437,
+			'background' : #f4f8fb,
+			'primary'    : #5665A1,
+			'success'    : #52b0b7,
+			'warning'    : #d58c72,
+			'error'      : #d5626a,
+			'active'     : #d7e4ec,
+			'negative'   : white,
+			'grey'       : #89959d,
+			'secondary'  : #deecf4,
+			'dark'       : #3e4862,
+		),
+		'border': (
+			'color'  : #cad6df,
+			'width'  : 1px,
+			'style'  : solid,
+			'radius' : .245rem,
+		),
+		'shadow': (
+			'horizontal' : 0,
+			'vertical'   : 5px,
+			'blur'       : 12px,
+			'spread'     : 0,
+			'color'      : rgba(37,44,97,.19),
+		),
+		'input': (
+			'color'         : null, // (null = color > text)
+			'background'    : white,
+			'border-color'  : null, // (null = border > color)
+			'outline-color' : #5665A1,
+			'outline-width' : 1px,
+			'label-weight'  : 500,
+			'transition'    : .35s
+		),
+		'components': (
+			'navbar': (
+				'font-weight': 500
+			),
+			'tabnav': (
+				'font-weight': 400
+			),
+			'card': (
+				'background' : white, // (null = color > background)
+				'radius'     : null // (null = border > radius)
+			),
+			'panel': (
+				'background' : null, // (null = color > background)
+				'radius'     : null // (null = border > radius)
+			),
+			'menu': (
+				'background': white, // (null = color > background)
+			)
+		),
+		'elements': (
+			'button': (
+				'font-weight' : 500,
+				'radius'      : null, // (null = border > radius)
+				'secondary': (
+					'color'        : white,
+					'background'   : #5fbef0,
+					'hover-color'  : null,
+					'hover-bg'     : lighten(#5fbef0, 4%),
+					'border-color' : darken(#5fbef0, 3%)
+				)
+			),
+		)
+	)
+)
